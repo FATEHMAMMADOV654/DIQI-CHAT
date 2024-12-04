@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message</title>
+</head>
+<body>
+
+<h2>Send Message</h2>
+
+<form id="messageForm" action="sendMessage.php" method="post">
+    <label for="receiverUsername">Receiver Username:</label>
+    <input type="text" id="receiverUsername" name="receiverUsername" required><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
